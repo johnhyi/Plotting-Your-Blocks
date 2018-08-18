@@ -1,0 +1,49 @@
+
+#wrapper{
+    width: 980px;
+    height: 0px auto;
+    background-color: silver;
+    margin: 0px auto;
+}
+#header{
+    min-height: 150px;
+    width: 950px;
+    background-color: green;
+    margin: 15px;
+    display: flex;
+    align-self: center;
+}
+#headbody{
+    display: flex;
+    flex-direction: row;
+}
+#navigation{
+    height: 300px;
+    width: 150px;
+    background-color: blue;
+    margin: 15px;
+}
+#main_content{
+    min-height: 500px;
+    width: 700px;
+    background-color: red;
+    margin: 15px;
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-around;
+
+}
+.subcontents{
+    min-height: 200px;
+    width: 200px;
+    background-color: yellow;
+    display: flex;
+    margin: 13px;
+}
+#advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 13px;
+    display: flex;
+}
